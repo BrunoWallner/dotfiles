@@ -5,4 +5,20 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-count=0
+clientId1=10bfc5a661000162445278500000005990005
+clientId2=10bfc5a661000162410745700000006170008
+clientId3=10bfc5a661000162445278600000005990008
+count=3
+discardCommand3[$e]=rm,$HOME/.config/session/kmix_10bfc5a661000162445278600000005990008_1624659380_890062
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/korgac
+program3=/usr/bin/kmix
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10bfc5a661000162445278500000005990005_1624659380_889917
+restartCommand2=/usr/bin/korgac,-session,10bfc5a661000162410745700000006170008_1624659380_890067
+restartCommand3=/usr/bin/kmix,-session,10bfc5a661000162445278600000005990008_1624659380_890062
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=luca
+userId2=luca
+userId3=luca

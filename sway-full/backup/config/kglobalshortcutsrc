@@ -1,11 +1,12 @@
 [ActivityManager]
 _k_friendly_name=Aktivitätenverwaltung
-switch-to-activity-1462c0ab-3425-4598-ac03-2667ec54bda7=none,none,Zu Aktivität „Standard“ wechseln
+switch-to-activity-46a9dce5-8634-419f-8970-0e1350dada63=none,none,Zu Aktivität „Standard“ wechseln
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to Deutsch=none,none,Tastaturbelegung zu Deutsch umschalten
 Switch keyboard layout to English (USA)=none,none,Tastaturbelegung zu English (USA) umschalten
 Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Auf nächste Tastaturbelegung umschalten
-_k_friendly_name=KWin
+_k_friendly_name=Umschaltung der Tastaturbelegung
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Screenreader ein-/ausschalten
@@ -15,7 +16,7 @@ _k_friendly_name=Zugangshilfen
 Disable Touchpad=Touchpad Off,Touchpad Off,Touchpad abschalten
 Enable Touchpad=Touchpad On,Touchpad On,Touchpad aktivieren
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Touchpad umschalten
-_k_friendly_name=KWin
+_k_friendly_name=Touchpad
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Systemaktivität anzeigen
@@ -25,6 +26,7 @@ display=Display\tMeta+P,Display\tMeta+P,Anzeige wechseln
 [khotkeys]
 _k_friendly_name=Dienst für eigene Kurzbefehle
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Suchen
+{e97b103b-f468-4746-94fc-1dadb6cc90e7}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Lautstärke
@@ -60,7 +62,7 @@ MoveZoomRight=none,none,Vergrößerten Bereich nach rechts verschieben
 MoveZoomUp=none,none,Vergrößerten Bereich nach oben verschieben
 Setup Window Shortcut=none,none,Kurzbefehl für Fenster einrichten
 Show Desktop=Meta+D,Meta+D,Arbeitsfläche anzeigen
-ShowDesktopGrid=Ctrl+F8,Ctrl+F8,Arbeitsflächen-Raster anzeigen
+ShowDesktopGrid=Ctrl+F8\tMeta+<,Ctrl+F8,Arbeitsflächen-Raster anzeigen
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Compositing aussetzen
 Switch One Desktop Down=none,Meta+Ctrl+Down,Eine Arbeitsfläche nach unten
 Switch One Desktop Up=none,Meta+Ctrl+Up,Eine Arbeitsfläche nach oben
@@ -185,9 +187,20 @@ Window to Screen 5=none,none,Fenster auf Bildschirm 5
 Window to Screen 6=none,none,Fenster auf Bildschirm 6
 Window to Screen 7=none,none,Fenster auf Bildschirm 7
 _k_friendly_name=KWin
-view_actual_size=Meta+0,Meta+0,Originalgröße
+view_actual_size=,Meta+0,Originalgröße
 view_zoom_in=Meta+=,Meta+=,Vergrößern
 view_zoom_out=Meta+-,Meta+-,Verkleinern
+
+[mediacontrol]
+_k_friendly_name=Mediensteuerung
+mediavolumedown=none,none,Medienspieler leiser
+mediavolumeup=none,none,Medienspieler lauter
+nextmedia=Media Next,Media Next,Nächstes Medium wiedergeben
+pausemedia=Media Pause,Media Pause,Medienwiedergabe anhalten
+playmedia=none,none,Medienwiedergabe starten
+playpausemedia=Media Play,Media Play,Medienwiedergabe starten/anhalten
+previousmedia=Media Previous,Media Previous,Vorheriges Medium wiedergeben
+stopmedia=Media Stop,Media Stop,Medienwiedergabe anhalten
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
@@ -201,6 +214,14 @@ _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji-Auswahl
 _launch=Meta+.,Meta+.,Emoji-Auswahl
+
+[org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Print,Meta+Print,Aktives Fenster aufnehmen
+CurrentMonitorScreenShot=,none,Aktuellen Bildschirm aufnehmen
+FullScreenScreenShot=Shift+Print,Shift+Print,Gesamte Arbeitsfläche aufnehmen
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Rechteckigen Bereich aufnehmen
+_k_friendly_name=Spectacle
+_launch=Print,Print,Spectacle starten
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Helligkeit der Tastatur-Hintergrundbeleuchtung verringern
@@ -218,7 +239,7 @@ _k_friendly_name=Energieverwaltung
 [plasmashell]
 _k_friendly_name=Plasma
 activate task manager entry 1=Meta+1,Meta+1,Fensterleisteneintrag 1 aktivieren
-activate task manager entry 10=,Meta+0,Fensterleisteneintrag 10 aktivieren
+activate task manager entry 10=Meta+0,Meta+0,Fensterleisteneintrag 10 aktivieren
 activate task manager entry 2=Meta+2,Meta+2,Fensterleisteneintrag 2 aktivieren
 activate task manager entry 3=Meta+3,Meta+3,Fensterleisteneintrag 3 aktivieren
 activate task manager entry 4=Meta+4,Meta+4,Fensterleisteneintrag 4 aktivieren
@@ -227,7 +248,7 @@ activate task manager entry 6=Meta+6,Meta+6,Fensterleisteneintrag 6 aktivieren
 activate task manager entry 7=Meta+7,Meta+7,Fensterleisteneintrag 7 aktivieren
 activate task manager entry 8=Meta+8,Meta+8,Fensterleisteneintrag 8 aktivieren
 activate task manager entry 9=Meta+9,Meta+9,Fensterleisteneintrag 9 aktivieren
-activate widget 3=Alt+F1,none,Miniprogramm Anwendungs-Starter aktivieren
+activate widget 4=Alt+F1,none,Miniprogramm Anwendungs-Starter aktivieren
 clear-history=none,none,Bisherigen Inhalt der Zwischenablage löschen
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Zwischenablageaktionen aktivieren
 cycleNextAction=none,none,Nächstes Element im Verlauf

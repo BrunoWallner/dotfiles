@@ -1,0 +1,10 @@
+[Defaults]
+Profile=Standard
+
+[PROFILE_Standard]
+EmailAddress=
+FullName=
+Organization=
+ReplyAddr=
+ServerType=
+TerminalClient=false

@@ -1,0 +1,28 @@
+[MainWindow]
+DP-2 HDMI-0 Height 1920x1080=1051
+DP-2 HDMI-0 Width 1920x1080=3840
+DP-2 HDMI-0 Window-Maximized 1920x1080=true
+DP-2 HDMI-0 XPosition 1920x1080=0
+DP-2 HDMI-0 XPosition 3840x2160=0
+DP-2 HDMI-0 YPosition 1920x1080=569
+DP-2 HDMI-0 YPosition 3840x2160=0
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAN8AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAIAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABGAGkAbABlAQAAAAD/////AAAAAAAAAAAAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABFAGQAaQB0AQAAAMD/////AAAAAAAAAAAAAAACAAAAAgAAADQATQBhAGkAbgBXAGkAZABnAGUAdAAgAFIAZQBjAG8AcgBkAC8AUABsAGEAeQBiAGEAYwBrAQAAAAD/////AAAAAAAAAAAAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABaAG8AbwBtAQAAAaL/////AAAAAAAAAAA=
+toolbars=3
+
+[MainWindow][Toolbar MainWidget Edit]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget File]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Record/Playback]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Zoom]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[Recent Files]
+0=/home/luca/Downloads/Skrillex Supersonic.mp3

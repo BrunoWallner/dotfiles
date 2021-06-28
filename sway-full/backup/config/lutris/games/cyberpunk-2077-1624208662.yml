@@ -1,0 +1,13 @@
+game:
+  exe: /home/luca/Games/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe
+  prefix: ~/Games/prefix
+  working_dir: ~/Games/Cyberpunk 2077
+system:
+  disable_compositor: false
+  env:
+    MANGOHUD: '1'
+  sdl_video_fullscreen: '1'
+  vk_icd: ''
+wine:
+  esync: true
+  fsync: true

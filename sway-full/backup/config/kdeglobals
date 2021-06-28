@@ -134,10 +134,16 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
+BrowserApplication=org.mozilla.firefox.desktop
 Name[de_DE]=Breeze-Dunkel
 Name=Breeze Dark
+XftHintStyle=hintslight
+XftSubPixel=rgb
 shadeSortColumn=true
 widgetStyle=Breeze
+
+[Icons]
+Theme=Fluent-red-dark
 
 [KDE]
 ColorScheme=BreezeLight
@@ -163,6 +169,9 @@ Sort directories first=true
 Sort reversed=false
 Speedbar Width=188
 View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
 
 [WM]
 activeBackground=49,54,59

@@ -1,0 +1,10 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=KMixWindow
+HDMI-0 DP-2 XPosition 3840x2160=0
+HDMI-0 DP-2 YPosition 3840x2160=0
+ObjectName=KMixWindow
+State=AAAA/wAAAAD9AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled

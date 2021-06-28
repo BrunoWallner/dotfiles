@@ -1,0 +1,5 @@
+game:
+  exe: /mnt/HDD/GOG_Galaxy_2.0.exe
+  prefix: ~/Games/prefix
+system: {}
+wine: {}

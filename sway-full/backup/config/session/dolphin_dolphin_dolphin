@@ -1,12 +1,26 @@
 [1]
 Active Tab Index=0
-Tab Count=1
-Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00-file:///home/luca/Dokumente/Schule/Geschichte\x00\x00\x00\x00\x01\x00\x00\x007file:///home/luca/Dokumente/Schule/Geschichte/Schulheft\x00\x00\x00\x01\x00\x00\x007file:///home/luca/Dokumente/Schule/Geschichte/Schulheft\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+Tab Count=2
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00\x11file:///home/luca\x00\x00\x00\x00\x01\x00\x00\x00\x18file:///home/luca/.cache\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+Tab Data 1=\x00\x00\x00\x02\x00\x00\x00\x00"file:///home/luca/Dokumente/Schule\x00\x00\x00\x00\x01\x00\x00\x00>file:///home/luca/Dokumente/Schule/Sozialkunde-Referat-Notizen\x00\x00\x00\x02\x00\x00\x00>file:///home/luca/Dokumente/Schule/Sozialkunde-Referat-Notizen\x00\x00\x00Lfile:///home/luca/Dokumente/Schule/Sozialkunde-Referat-Pr%C3%A4sentation.odp\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [WindowProperties1]
 ClassName=DolphinMainWindow
+DP-2 HDMI-0 XPosition 3840x2160=3140
+DP-2 HDMI-0 YPosition 3840x2160=913
+HDMI-0 DP-2 Height 1920x1080=648
+HDMI-0 DP-2 Height 3840x2160=648
+HDMI-0 DP-2 Width 1920x1080=972
+HDMI-0 DP-2 Width 3840x2160=972
+HDMI-0 DP-2 Window-Maximized 3840x2160=true
+HDMI-0 DP-2 XPosition 1920x1080=582
+HDMI-0 DP-2 XPosition 3840x2160=3140
+HDMI-0 DP-2 YPosition 1920x1080=721
+HDMI-0 DP-2 YPosition 3840x2160=913
+HDMI-A-1 DP-2 Height 3840x2160=673
+HDMI-A-1 DP-2 Width 3840x2160=538
 MenuBar=Disabled
 ObjectName=Dolphin#1
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAwAAAAAAAACiAAADwPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAADwAAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAADAAAAA8AAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
-eDP-1 Window-Maximized 1920x1080=true
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACvAAACWvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAACWgAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAABTwAAAloAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled

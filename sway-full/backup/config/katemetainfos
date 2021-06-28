@@ -1,23 +1,83 @@
-[file:///home/luca/Dokumente/Schule/Deutsch/Schulheft]
+[file:///home/luca/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/minecraftWorlds/tx-FYClSAgA=/levelname.txt]
 Bookmarks=
-Checksum=8d1c8b69c3fce7bea45c73efd06983e3c419a92f
+Checksum=2f5c2fc9cdfe659546e70527cfd27c4f527bc6e3
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2021,6,28,7,12,27.563
-URL=file:///home/luca/Dokumente/Schule/Deutsch/Schulheft
+Time=2021,6,19,19,31,44.354
+URL=file:///home/luca/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/minecraftWorlds/tx-FYClSAgA=/levelname.txt
 
-[file:///home/luca/Latein/Schulheft]
+[file:///home/luca/Dokumente/Schule/Sozialkunde-Referat-Notizen]
 Bookmarks=
-Checksum=d89190549f8cd009987def548d348ab9d917b22d
+Checksum=a77552f35b1f6b0863cf5fc34739a5a3a474c43f
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2021,6,28,10,16,9.507
-URL=file:///home/luca/Latein/Schulheft
+Time=2021,6,23,16,1,31.565
+URL=file:///home/luca/Dokumente/Schule/Sozialkunde-Referat-Notizen
+
+[file:///home/luca/Dokumente/usr/src/nvidia-465.31/nvidia-uvm/uvm_range_group.c]
+Bookmarks=
+Checksum=2b3d4b414f22c92aeb1f14e6f88ddb372083e34f
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2021,6,25,18,34,16.308
+URL=file:///home/luca/Dokumente/usr/src/nvidia-465.31/nvidia-uvm/uvm_range_group.c
+
+[file:///home/luca/Dokumente/usr/src/nvidia-465.31/nvidia/nvlink_caps.c]
+Bookmarks=
+Checksum=32a2639f05a0fca79a55967082d27f2a0b975e08
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2021,6,25,18,33,54.76
+URL=file:///home/luca/Dokumente/usr/src/nvidia-465.31/nvidia/nvlink_caps.c
+
+[file:///run/media/luca/88FA71DFFA71CA48/Users/luca/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/oN3MYEa0AwA=/levelname.txt]
+Bookmarks=
+Checksum=b9ba1b325eaf03e8777dc51cb8224d23144866b5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2021,6,19,18,39,55.942
+URL=file:///run/media/luca/88FA71DFFA71CA48/Users/luca/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/oN3MYEa0AwA=/levelname.txt
+
+[file:///run/media/luca/88FA71DFFA71CA48/Users/luca/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/tx-FYClSAgA=/levelname.txt]
+Bookmarks=
+Checksum=2f5c2fc9cdfe659546e70527cfd27c4f527bc6e3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2021,6,19,18,40,1.3639999999999999
+URL=file:///run/media/luca/88FA71DFFA71CA48/Users/luca/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/minecraftWorlds/tx-FYClSAgA=/levelname.txt
+
+[file:///run/media/luca/ARCH_202104/syslinux.cfg]
+Bookmarks=
+Checksum=097c516e24b4ed53c07b0888d055f981ad4f5014
+Encoding=UTF-8
+Highlighting=Nagios
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Nagios
+Mode Set By User=false
+Time=2021,6,19,9,45,12.401
+URL=file:///run/media/luca/ARCH_202104/syslinux.cfg

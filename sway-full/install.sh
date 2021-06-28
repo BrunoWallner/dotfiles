@@ -45,7 +45,11 @@ full_install()
 	echo "> swaylock"
 	echo "> light"
 	echo "> wofi"
+	echo "> qt5ct"
 	echo "> alacritty"
+	echo "> ttf-font awesome"
+	echo "> pulsemixer"
+	echo "> networkmanager"
 	
 	echo ""
 	
@@ -58,7 +62,8 @@ full_install()
 }
 
 echo "this script will delete all configs for:"
-echo "/home/$USER/.config/sway /usr/share/backgrounds"
+echo "/home/$USER/.config/sway" 
+echo "/usr/share/backgrounds"
 echo "/home/$USER/.config/waybar"
 echo ""
 echo "it will also modify:"

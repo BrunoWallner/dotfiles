@@ -3,7 +3,3 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
-XDG_CURRENT_DESKTOP=Unity
-QT_QPA_PLATFORMTHEME=qt5ct
-XDG_CURRENT_DESKTOP=Unity
-QT_QPA_PLATFORMTHEME=qt5ct

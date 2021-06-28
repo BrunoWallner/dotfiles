@@ -1,9 +1,12 @@
+[$Version]
+update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+
 [Data]
 DataCount=3
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=1
+DataCount=2
 Enabled=true
 Name=KMenuEdit
 SystemGroup=1
@@ -38,6 +41,32 @@ TriggersCount=1
 Key=
 Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
+
+[Data_1_2]
+Comment=Global keyboard shortcut to launch Konsole
+Enabled=true
+Name=Launch Konsole
+Type=MENUENTRY_SHORTCUT_ACTION_DATA
+
+[Data_1_2Actions]
+ActionsCount=1
+
+[Data_1_2Actions0]
+CommandURL=org.kde.konsole.desktop
+Type=MENUENTRY
+
+[Data_1_2Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_1_2Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_1_2Triggers0]
+Key=Ctrl+Alt+T
+Type=SHORTCUT
+Uuid={e97b103b-f468-4746-94fc-1dadb6cc90e7}
 
 [Data_2]
 Comment=Diese Gruppe enthält einige Beispiele für die meisten Funktionen von KHotkeys. (Hinweis: Diese Gruppe und alle ihre Aktionen sind in der Voreinstellung deaktiviert.)
@@ -90,7 +119,7 @@ TriggersCount=1
 [Data_2_1Triggers0]
 Key=Ctrl+Alt+I
 Type=SHORTCUT
-Uuid={d66ace77-1ad0-4ec5-a7a1-61c1a41f21cb}
+Uuid={308aec97-9d8e-4ecd-9886-93ed2704bbb3}
 
 [Data_2_2]
 Comment=Wenn Sie Strg+Alt+H drücken wird die Tastatureingabe des Wortes „Hello“ simuliert. Dies kann nützlich sein, wenn Sie bestimmte Wörter immer wieder eingeben müssen (z. B. muss ein Programmierer öfters „unsigned“ eingeben). Jeder Tastendruck in der Eingabe wird durch einen Doppelpunkt („:“) getrennt. Bitte beachten Sie: hier ist wirklich von gedrückten Tasten die Rede; Sie müssen das eingeben, was Sie tatsächlich auf der Tastatur eingeben würden. In der folgenden Tabelle sehen Sie in der linken Spalte den auszugebenden Text und zur Rechten die zu drückenden Tasten:\n\n„Eingabe“ (neue Zeile)                Eingabetaste\na (ein kleines a)                       A\nA (ein großes a)                        Umschalt+A\n: (Doppelpunkt)                         Umschalt+:\n„ “ (Leerzeichen)                       Leertaste
@@ -117,7 +146,7 @@ TriggersCount=1
 [Data_2_2Triggers0]
 Key=Ctrl+Alt+H
 Type=SHORTCUT
-Uuid={074526e4-2aef-40d2-8a57-d7bb49f5ad70}
+Uuid={9c6cbd31-7e95-4320-b007-da65db11c287}
 
 [Data_2_3]
 Comment=Nach dem Drücken von Strg+Alt+T wird das Terminalprogramm „Konsole“ gestartet.
@@ -143,7 +172,7 @@ TriggersCount=1
 [Data_2_3Triggers0]
 Key=Ctrl+Alt+T
 Type=SHORTCUT
-Uuid={fb23154c-2f21-482c-8094-5dc55f3c52ac}
+Uuid={fd848c40-59f6-49f0-92fe-805e6c8381ea}
 
 [Data_2_4]
 Comment=Lesen Sie bitte zunächst den Kommentar zu der Aktion „Hello ausgeben“.\n\nQt-Designer benutzt die Tastenkombination Strg+F4 zum Schließen von Fenstern (vermutlich, weil dies so auch in Windows üblich ist). In KDE wiederum ist dies die übliche Tastenkombination, um auf die Arbeitsfläche 4 zu wechseln. Das in KDE übliche Strg+W zum Schließen eines Fensters funktioniert ebenfalls nicht in Qt-Designer. Das Problem kann aber umgangen werden: Dazu muss Strg+W auf Strg+F4 umgelegt werden, wenn Qt-Designer das aktive Fenster ist. Immer wenn Sie dann in Qt-Designer Strg+W drücken, wird in Wirklichkeit Strg+F4 an das Programm gemeldet. In anderen Programmen wird Strg+W natürlich wie gewohnt weiter funktionieren.\n\nEs müssen drei Dinge eingestellt werden: Eine neue Tastenkombination für „Strg+W“, eine neue Tastaturaktion, die Strg+F4 sendet, und eine neue Bedingung für das aktive Qt-Designer-Fenster.\nDer Fenstertitel von Qt-Designer scheint grundsätzlich „Qt Designer by Trolltech“ zu lauten, also wird die Bedingung auf diesen Fenstertitel prüfen.
@@ -188,7 +217,7 @@ TriggersCount=1
 [Data_2_4Triggers0]
 Key=Ctrl+W
 Type=SHORTCUT
-Uuid={f03c2e41-b692-4891-8f2a-b2fd8bb6441e}
+Uuid={041fbd94-5e80-49a3-be3e-05578c108123}
 
 [Data_2_5]
 Comment=Durch Drücken von Strg+Alt+W wird ein D-Bus-Aufruf getätigt, der das Fenster „Befehl ausführen“ anzeigt. Natürlich können Sie jede Art von D-Bus-Aufruf verwenden, genauso als würden Sie das Befehlszeilenprogramm „qdbus“ verwenden.
@@ -217,7 +246,7 @@ TriggersCount=1
 [Data_2_5Triggers0]
 Key=Ctrl+Alt+W
 Type=SHORTCUT
-Uuid={3a8309c3-bd6b-49fe-987b-f6c9621f89f4}
+Uuid={e268833a-53d1-4156-a41a-0832b1d6d242}
 
 [Data_2_6]
 Comment=Bitte lesen Sie zunächst die Kommentare zu der Aktion „Hello ausgeben“.\n\nGenau wie in „Hello ausgeben“ wird auch hier eine Tastatureingabe simuliert. Wenn Sie Strg+Alt+B drücken, wird B an das XMMS-Fenster übergeben (B bewirkt in XMMS einen Wechsel zum nächsten Stück). Das Ankreuzfeld „Eingabe übergeben an ... spezielles Fenster“ ist markiert und als Fensterklasse ist „XMMS_Player“ eingestellt. Dadurch wird die Eingabe immer nur an dieses Fenster übergeben. Auf diese Weise können Sie XMMS bedienen, selbst dann, wenn es sich auf einer anderen Arbeitsfläche befindet.\n\nDie Fensterklasse finden Sie übrigens mit „xprop“ und einem Klick auf das XMMS-Fenster heraus, oder indem Sie auf die Schaltfläche „Automatisch feststellen“ drücken und danach das XMMS-Fenster anklicken.
@@ -259,7 +288,7 @@ TriggersCount=1
 [Data_2_6Triggers0]
 Key=Ctrl+Alt+B
 Type=SHORTCUT
-Uuid={404c5951-2103-4479-8770-f24129590ab2}
+Uuid={eb5238e5-a09a-4e67-8fca-d83d13876121}
 
 [Data_2_7]
 Comment=Konqueror hat seit KDE 3.1 Unterfenster und nun werden auch Gesten unterstützt. Drücken Sie die mittlere Maustaste und ziehen mit der Maus eine der Gesten. Wenn Sie fertig sind, lassen Sie die mittlere Maustaste wieder los. Falls Sie mit der mittleren Maustaste nur eine Auswahl einfügen möchten, funktioniert dies selbstverständlich weiterhin indem Sie die mittlere Maustaste drücken ohne eine Geste nachzuziehen. (Der Mausknopf für Gesten kann aber in den Globalen Einstellungen auch anderweitig festgelegt werden.)\n\nDie folgenden Gesten sind zurzeit verfügbar:\nnach rechts und nach links -> Vorwärts (Alt+Rechts)\nnach links und nach rechts -> Zurück (Alt+Links)\nnach oben und nach unten -> Eine Ebene höher (Alt+Hoch)\nKreis gegen den Uhrzeigersinn -> Dokument erneut laden (F5)\n\n\nDie Gesten können eingegeben werden, indem Sie die Geste im Einrichtungsdialog ausführen. Es kann hilfreich sein, wenn Sie sich das Zahlenfeld Ihrer Tastatur ansehen; Gesten werden in einem Raster von 3×3 Feldern dargestellt die von 1 bis 9 durchnummeriert sind.\n\nEs muss immer die genau passende Geste ausgeführt werden, um die zugewiesene Aktion zu starten. Es ist möglich, einer Aktion mehrere Gesten zuzuordnen. Vermeiden Sie nach Möglichkeit zu komplizierte Gesten, die mehr als eine Richtungsänderung beinhalten. (Ein gutes Beispiel wäre 45654 oder 74123, weil diese einfach sind. 1236987 hingegen könnte bereits zu kompliziert sein.)\n\nDie Bedingung für alle Gesten wird in dieser Gruppe festgelegt. Alle Gesten sind nur im Konqueror-Fenster gültig (weil die Fensterklasse „konqueror“ enthält).
@@ -451,7 +480,7 @@ TriggersCount=1
 [Data_2_8Triggers0]
 Key=Meta+E
 Type=SHORTCUT
-Uuid={6966b442-f6f7-4b98-be0a-e4a54b7a5f42}
+Uuid={66b129f0-0b0e-4925-8097-05adada0a3c3}
 
 [Data_3]
 Comment=Grundlegende Gesten für Konqueror
@@ -875,7 +904,7 @@ Theme[$d]
 widgetStyle[$d]
 
 [Main]
-AlreadyImported=defaults,kde32b1,konqueror_gestures_kde321
+AlreadyImported=defaults,kde32b1,konqueror_gestures_kde321,konsole
 Disabled=false
 Version=2
 

@@ -1,0 +1,26 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=FALLBACK/
+RemoteTab=(%u) %H
+SessionGuid={02bcb1c4-a1df-4dce-b3a3-4d293e3b1dbb}
+TabColor=
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+DP-2 Height 3840x2160=820
+DP-2 Width 3840x2160=1314
+DP-2 XPosition 3840x2160=0
+DP-2 YPosition 3840x2160=0
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABSIAAALoAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIBAAACT/////8AAAAAAAAAAA==
+StatusBar=Disabled

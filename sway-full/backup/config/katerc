@@ -1,6 +1,6 @@
 [FileDialogSize]
-eDP-1 Height 1920x1080=580
-eDP-1 Width 1920x1080=900
+HDMI-0 DP-2 Height 3840x2160=1218
+HDMI-0 DP-2 Width 3840x2160=1903
 
 [General]
 Config Revision=10
@@ -12,8 +12,8 @@ Show Status Bar=true
 Show Tab Bar=true
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Latein/Schulheft,file:$HOME/Latein/Schulheft
-Recent URLs[$e]=file:$HOME/Latein/
+Recent Files[$e]=file:$HOME/Dokumente/Schule/Sozialkunde-Referat-Notizen,file:$HOME/Dokumente/Schule/Sozialkunde-Referat-Notizen
+Recent URLs[$e]=file:$HOME/Dokumente/Schule/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -59,7 +59,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
-Font=monospace,10,-1,2,50,0,0,0,0,0
+Font=Hack,10,-1,7,50,0,0,0,0,0
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
 Word Wrap Marker=false
@@ -111,7 +111,37 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-eDP-1 Window-Maximized 1920x1080=true
+HDMI-0 DP-2 Height 3840x2160=480
+HDMI-0 DP-2 Width 3840x2160=640
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Noto Sans,10,-1,0,50,0,0,0,0,0
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+
+[Printing][Text]
+Legend=false
+LineNumbers=false
 
 [filetree]
 editShade=31,81,106
